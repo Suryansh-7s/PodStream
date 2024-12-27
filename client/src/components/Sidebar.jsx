@@ -8,7 +8,7 @@ const MenuContianer = styled.div`
     flex: 0.5;
     flex-direction: column;
     height: 100vh;
-    width: 100%;
+    displ: 100%;
 `;
 
 const Logo = styled.div``;
