@@ -11,7 +11,7 @@ const container = styled.div`
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   return (
-    <ThemeProvider theme= "light" ? lightTheme : darkTheme}>
+    <ThemeProvider theme= ? lightTheme : darkTheme}>
       <container>
         PodStream
       </container>
