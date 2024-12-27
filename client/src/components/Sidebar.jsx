@@ -10,7 +10,7 @@ const MenuContianer = styled.div`
     height: 100vh;
     display: flex;
     background: ${({theme}) => theme.bg};
-    color: ${({theme}) => theme.text};
+    color: ${({theme}) => theme.text_;
 `;
 
 const Logo = styled.div``;
