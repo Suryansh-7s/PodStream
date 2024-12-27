@@ -12,4 +12,14 @@ const container = styled.div`
   transition: background 0.5s;
 `;
 function App() {
-  
+  const [theme, setTheme] = useState("dark");
+  return (
+    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+      <container>
+        <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+          {theme === "light" ? "Dark" : "Light"} Mode
+        </button>
+      </container>
+    </ThemeProvider>
+  );
+}
