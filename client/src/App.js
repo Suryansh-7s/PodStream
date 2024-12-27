@@ -16,10 +16,6 @@ import DisplayPodcasts from '../src/pages/DisplayPodcasts.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useDispatch, useSelector } from "react-redux";
 import styled from 'styled-components';
-import AudioPlayer from "./components/AudioPlayer.jsx";
-import VideoPlayer from "./components/VideoPlayer.jsx";
-import PodcastDetails from "./pages/PodcastDetails.jsx";
-import { closeSignin } from "./redux/setSigninSlice.jsx";
 
 const Frame = styled.div`
   display: flex;
