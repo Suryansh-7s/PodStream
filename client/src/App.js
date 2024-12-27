@@ -16,16 +16,6 @@ const Podstream = styled.div`
 function App() {
 
   const [darkMode, setDarkMode] = useState(true);
-      resize();
-      window.addEventListener("resize", resize);
-      return () => window.removeEventListener("resize", resize);
-    }, []);
-
-    useEffect(()=>{
-      dispatch(
-        closeSignin()
-      )
-    },[])
 
   return (
 
