@@ -11,6 +11,7 @@ const container = styled.div`
   align-items: center;
   transition: background 0.5s;
 `;
+
 function App() {
   const [theme, setTheme] = useState("dark");
   return (
