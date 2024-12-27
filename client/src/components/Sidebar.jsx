@@ -16,7 +16,7 @@ const MenuContianer = styled.div`
         z-index: 1000;
         width: 100%;
         max-width: 250px;
-
+        lef
 `;
 
 const Logo = styled.div``;
