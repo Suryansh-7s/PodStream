@@ -1,32 +1,57 @@
 {
-  "name": "podstream",
+  "name": "podstream-client",
   "version": "1.0.0",
-  "description": "A podcast streaming application",
+  "description": "A podcast streaming application with client functionality",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "autopush": "git add . && git commit -m \"Auto-commit: Changes saved on $(date)\" && git push origin main"
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suryansh-7s/PodStream.git"
   },
+  "homepage": "https://github.com/Suryansh-7s/PodStream#readme",
+  "bugs": {
+    "url": "https://github.com/Suryansh-7s/PodStream/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Suryansh-7s",
+  "license": "ISC",
   "keywords": [
     "podcast",
     "streaming",
     "audio"
   ],
-  "author": "Suryansh-7s",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Suryansh-7s/PodStream.git"
+  "scripts": {
+    "test": "react-scripts test",
+    "autopush": "git add . && git commit -m \"Auto-commit: Changes saved on $(date)\" && git push origin main",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
   },
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/Suryansh-7s/PodStream/issues"
-  },
-  "homepage": "https://github.com/Suryansh-7s/PodStream#readme",
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^4.2.4",
+    "cra-template": "1.2.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
