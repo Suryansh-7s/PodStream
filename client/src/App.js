@@ -3,12 +3,6 @@ import { useState, useEffect } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import styled from 'styled-components';
 
-const Frame = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex: 3;
-`;
-
 const Podstream = styled.div`
   display: flex;
   flex-direction: row;
