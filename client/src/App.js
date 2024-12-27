@@ -75,32 +75,7 @@ function App() {
 
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
 
-      <BrowserRouter>
-        {opensi && <Signin setSignInOpen={setSignInOpen} setSignUpOpen={setSignUpOpen} />}
-        {SignUpOpen && <Signup setSignInOpen={setSignInOpen} setSignUpOpen={setSignUpOpen} />}
-        {uploadOpen && <Upload setUploadOpen={setUploadOpen} />}
-        {openplayer && type === 'video' && <VideoPlayer episode={episode} podid={podid} currenttime={currenttime} index={index}/>}
-        {openplayer && type === 'audio'  && <AudioPlayer episode={episode} podid={podid} currenttime={currenttime} index={index}/>}
-        <Podstream>
-          {menuOpen && <Menu setMenuOpen={setMenuOpen} darkMode={darkMode} setDarkMode={setDarkMode} setUploadOpen={setUploadOpen} setSignInOpen={setSignInOpen}/>}
-          <Frame>
-            <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} setSignInOpen={setSignInOpen} setSignUpOpen={setSignUpOpen} />
-            <Routes>
-              <Route path='/' exact element={<Dashboard setSignInOpen={setSignInOpen}/>} />
-              <Route path='/search' exact element={<Search />} />
-              <Route path='/favourites' exact element={<Favourites />} />
-              <Route path='/profile' exact element={<Profile />} />
-              <Route path='/podcast/:id' exact element={<PodcastDetails />} />
-              <Route path='/showpodcasts/:type' exact element={<DisplayPodcasts/>} />
-
-            </Routes>
-          </Frame>
-
-          {open && <ToastMessage open={open} message={message} severity={severity} />}
-        </Podstream>
-
-      </BrowserRouter>
-
+     
     </ThemeProvider>
 
   );
