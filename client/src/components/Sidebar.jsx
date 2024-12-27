@@ -4,7 +4,8 @@ import HomeRounded from '@mui/icons-material/HomeRounded';
 import CloseRounded from '@mui/icons-material/CloseRounded';
 
 
-const MenuContianer = styled.div``;
+const MenuContianer = styled.div`
+`;
 const Logo = styled.div``;
 const Close = styled.div``;
 const Elements = styled.div``;
