@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 
 const MenuContianer = styled.div``;
-const Logo = styled.div`
-const Close = styled.div`
+const Logo = styled.div``;
+const Close = styled.div``;
 const CloseRounded = styled.div`
 const Elements = styled.div`
 const HomeRounded = styled.div`
