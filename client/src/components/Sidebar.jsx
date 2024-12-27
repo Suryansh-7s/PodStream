@@ -57,3 +57,5 @@ const Sidebar = () => {
     </MenuContianer>
   )
 }
+
+export default Sidebar
