@@ -1,5 +1,6 @@
 import useState from "react";
-import styled
+import styled from "styled-components";
+
 function App(){
   return (
     const [darkMode, setDarkMode] = useState(true);
