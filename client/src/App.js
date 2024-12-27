@@ -3,15 +3,6 @@ import { useState, useEffect } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import styled from 'styled-components';
 
-const Podstream = styled.div`
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100vh;
-  background: ${({ theme }) => theme.bgLight};
-  overflow-y: hidden;
-  overflow-x: hidden;
-f`;
 
 function App() {
 
