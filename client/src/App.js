@@ -12,7 +12,7 @@ function App(){
   const [darkMode, setDarkMode] = useState(true);
   
   return (
-    <ThemeProvider theme={darkMode}>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
     <container>PodStream</container>
     </ThemeProvider>
   );
