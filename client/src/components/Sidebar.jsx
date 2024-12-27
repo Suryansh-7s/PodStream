@@ -27,7 +27,7 @@ const Logo = styled.div`
     justify-content: center;
     gap: 10px;
     font-weight: bold;
-    font
+    font-size: 1.5rem;
 `;
 const Close = styled.div``;
 const Elements = styled.div``;
