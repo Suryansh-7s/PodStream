@@ -1,2 +1,2 @@
 import { useState } from "react";
-import styled, { Them} from "styled-components";
+import styled, { ThemeProvider} from "styled-components";
