@@ -6,7 +6,8 @@ import CloseRounded from '@mui/icons-material/CloseRounded';
 
 const MenuContianer = styled.div`
     flex: 0.5;
-    flex-direc
+    flex-direction: column;
+    
 `;
 
 const Logo = styled.div``;
