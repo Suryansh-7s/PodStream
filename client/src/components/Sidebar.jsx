@@ -15,7 +15,7 @@ const MenuContianer = styled.div`
         position: fixed;
         z-index: 1000;
         width: 100%;
-        max-width: 250px
+        max-width: 250px;
 
 `;
 
