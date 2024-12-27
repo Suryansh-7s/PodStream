@@ -14,7 +14,7 @@ function App(){
   return (    
   <div>
     <ThemeProvider theme={lightTheme}>
-    <h1>PodStream</h1>
+    <container>PodStream</h1>
     </ThemeProvider>
 
 
