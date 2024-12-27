@@ -1,6 +1,7 @@
 import useState from "react";
 import styled from "styled-components";
 
+const conta
 function App(){
   return (
     const [darkMode, setDarkMode] = useState(true);
