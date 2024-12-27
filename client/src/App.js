@@ -9,9 +9,7 @@ height: 100vh;
 `;
 
 function App(){
-  return (
-    const [darkMode, setDarkMode] = useState(true);
-    
+  return (    
   <div>
       <h1>PodStream</h1>
     </div>
