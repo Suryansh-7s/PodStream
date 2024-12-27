@@ -15,7 +15,7 @@ const MenuContainer = styled.div`
     z-index: 1000;
     width: 100%;
     max-width: 300px;
-    left: $
+    left: ${({})}
 `;
 
 const Flex = styled.div`
