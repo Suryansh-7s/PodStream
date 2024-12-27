@@ -13,7 +13,8 @@ function App(){
   
   return (    
   <div>
-    <ThemeProvider theme={lightTheme}o<h1>PodStream</h1>
+    <ThemeProvider theme={lightTheme}>
+      </ThemeProvider>o<h1>PodStream</h1>
     </div>
   );
 }
