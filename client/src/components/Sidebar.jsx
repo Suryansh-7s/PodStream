@@ -28,7 +28,7 @@ const Logo = styled.div`
     gap: 10px;
     font-weight: bold;
     font-size: 20px;
-    
+    margin: 20px 0;
 `;
 const Close = styled.div``;
 const Elements = styled.div``;
