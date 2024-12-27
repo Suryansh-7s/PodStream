@@ -18,9 +18,6 @@ function App() {
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <container>
         PodStream
-        <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
-          {theme === "light" ? "Dark" : "Dark"} Mode
-        </button>
       </container>
     </ThemeProvider>
   );
