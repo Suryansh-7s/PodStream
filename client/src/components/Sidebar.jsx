@@ -13,7 +13,8 @@ const MenuContainer = styled.div`
     @media (max-width: 1100px) {
     position: fixed;
     z-index: 1000;
-    widt
+    width: 100%;
+    
 `;
 
 const Flex = styled.div`
