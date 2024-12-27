@@ -12,6 +12,7 @@ const Sidebar = () => {
     <Close>
         <CloseRounded />
     </Close>
+    
     </MenuContianer>
   )
 }
