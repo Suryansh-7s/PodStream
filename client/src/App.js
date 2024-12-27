@@ -14,9 +14,7 @@ function App(){
   return (    
   <div>
     <ThemeProvider theme={lightTheme}>
-      </ThemeProvider>
-      </div>
-  );
+      </ThemeProvider>  );
 }
 
 export default App;
