@@ -24,6 +24,7 @@ const Logo = styled.div`
     color: ${({theme}) => theme.primary};
     display: flex;
     align-items: center;
+    justify-content: center;
     
 `;
 const Close = styled.div``;
