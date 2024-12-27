@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { lightTheme, darkTheme } from "./utils/theme";
 
 const container = styled.div`
-background-color: ${props => props.theme.backgroundColor};
+background-color: ${(props => props.theme.backgroundColor};
 
 function App(){
   return (
