@@ -4,7 +4,10 @@ import styled from 'styled-components'
 
 const MenuContianer = styled.div`
 const Logo = styled.div`
-const
+const Close = styled.div`
+const CloseRounded = styled.div`
+const Elements = styled.div`
+cons
 
 const Sidebar = () => {
   return (
