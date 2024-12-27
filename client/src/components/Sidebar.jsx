@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Home
+import HomeRounded from '@material-ui/icons/HomeRounded'
 
 const MenuContianer = styled.div``;
 const Logo = styled.div``;
