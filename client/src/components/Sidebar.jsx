@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    return <MenuConaSidebar</div>
+    return <MenuContianer></MenuContianer>Sidebar</div>
   )
 }
 
