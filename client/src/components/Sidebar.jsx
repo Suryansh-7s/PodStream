@@ -14,7 +14,8 @@ const MenuContianer = styled.div`
     @media (max-width: 1100px){
         position: fixed;
         z-index: 1000;
-        
+        width: 100%;
+        max
 
 `;
 
