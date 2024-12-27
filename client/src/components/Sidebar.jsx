@@ -29,7 +29,6 @@ const Logo = styled.div`
     font-weight: bold;
     font-size: 20px;
     margin: 20px 0px;
-    
 `;
 const Close = styled.div``;
 const Elements = styled.div``;
