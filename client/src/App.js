@@ -13,7 +13,7 @@ function App(){
   
   return (    
   <div>
-    <ThemeProvidero<h1>PodStream</h1>
+    <ThemeProvider theme o<h1>PodStream</h1>
     </div>
   );
 }
