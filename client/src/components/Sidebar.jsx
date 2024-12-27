@@ -15,6 +15,7 @@ const Sidebar = () => {
     <Elements>
         <HomeRounded />
         <NavText>Dashboard</NavText>
+    <
     </MenuContianer>
   )
 }
