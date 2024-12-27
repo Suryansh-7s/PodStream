@@ -13,7 +13,7 @@ const container = styled.div`
 `;
 
 function App() {
-  const [theme, setDark] = useState("true");
+  const [theme, setDarkMode] = useState("true");
   return (
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <container>
