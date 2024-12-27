@@ -1,4 +1,4 @@
-import useState from React";function App(){
+import useState from "react";function App(){
   return (
     const [darkMode, setDarkMode] = useState(true);
     <div>
