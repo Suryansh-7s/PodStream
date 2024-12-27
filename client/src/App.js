@@ -1,6 +1,6 @@
-import {useState} from "react";
-import styled, { ThemeProvider } from "styled-components";
-import { lightTheme, darkTheme } from "./utils/theme";
+import { ThemeProvider } from "styled-components";
+import { useState, useEffect } from "react";
+import { darkTheme, lightTheme } from './utils/Themes.js'
 
 const container = styled.div`
 background-color: ${({ theme }) => theme.bg};
