@@ -23,6 +23,7 @@ const MenuContianer = styled.div`
 const Logo = styled.div`
     color: ${({theme}) => theme.primary};
     display: flex;
+    align-items: center;
     
 `;
 const Close = styled.div``;
