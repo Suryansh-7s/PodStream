@@ -5,7 +5,7 @@ import CloseRounded from '@mui/icons-material/CloseRounded';
 
 
 const MenuContianer = styled.div`
-flex: ;
+flex: 0.5
 const Logo = styled.div``;
 const Close = styled.div``;
 const Elements = styled.div``;
