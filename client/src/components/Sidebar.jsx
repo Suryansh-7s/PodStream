@@ -26,4 +26,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sideb
+export default Sidebar
