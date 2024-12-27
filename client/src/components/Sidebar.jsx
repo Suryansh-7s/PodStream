@@ -38,7 +38,7 @@ const Logo = styled.div`
 const Close = styled.div`
 display: flex;
 @media (max-width: 1100px){
-display: none;
+display: block;
 `;
 const Elements = styled.div``;
 const NavText = styled.div``;
