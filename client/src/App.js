@@ -4,6 +4,3 @@ import { lightTheme, darkTheme} from "./utils/Themes";
 
 const container = styled.div`
   background-color: ${props => props.theme.bg};
-  color: ${props => props.theme.text_primary};
-  transition: all 0.25s linear;
-`
