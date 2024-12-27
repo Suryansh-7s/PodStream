@@ -20,7 +20,13 @@ const MenuContianer = styled.div`
         transition: 0.3s ease-in-out;
 `;
 
-const Flex = 
+const Flex = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid ${({theme}) => theme.text_secondary};
+`;
 const Logo = styled.div`
     color: ${({theme}) => theme.primary};
     display: flex;
