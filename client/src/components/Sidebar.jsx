@@ -36,7 +36,9 @@ const Logo = styled.div`
     margin: 20px 0px;
 `;
 const Close = styled.div`
-displa`;
+display: flex;
+
+`;
 const Elements = styled.div``;
 const NavText = styled.div``;
 
