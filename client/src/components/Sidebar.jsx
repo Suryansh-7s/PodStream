@@ -9,7 +9,6 @@ const CloseRounded = styled.div`
 const Elements = styled.div`
 const HomeRounded = styled.div`
 const NavText = styled.div`
-const Sidebar = () => {
 
 const Sidebar = () => {
   return (
