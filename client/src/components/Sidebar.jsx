@@ -16,6 +16,7 @@ const MenuContainer = styled.div`
     width: 100%;
     max-width: 300px;
     left: ${({ setMenuOpen }) => (setMenuOpen ? '0' : '-100%')};
+    tra
 `;
 
 const Flex = styled.div`
