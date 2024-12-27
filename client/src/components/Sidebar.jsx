@@ -37,7 +37,7 @@ const Logo = styled.div`
 `;
 const Close = styled.div``;
 const Elements = styled.div``;
-const NavText = styled.div``;dsaaad
+const NavText = styled.div``;
 
 const Sidebar = () => {
   return (
