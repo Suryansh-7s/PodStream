@@ -16,16 +16,6 @@ const Podstream = styled.div`
 function App() {
 
   const [darkMode, setDarkMode] = useState(true);
-
-    //set the menuOpen state to false if the screen size is less than 768px
-    useEffect(() => {
-      const resize = () => {
-        if (window.innerWidth < 1110) {
-          setMenuOpen(false);
-        } else {
-          setMenuOpen(true);
-        }
-      }
       resize();
       window.addEventListener("resize", resize);
       return () => window.removeEventListener("resize", resize);
