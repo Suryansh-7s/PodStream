@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
+import HomeRounded from '@mui/icons-material/HomeRounded';
 import CloseRounded from '@mui/icons-material/CloseRounded';
 
 
