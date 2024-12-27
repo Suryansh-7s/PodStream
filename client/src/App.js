@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styled, {ThemeProvider} from "styled-components";
 import { lightTheme, darkTheme} from "./utils/Themes";
-import S
+import Sidebar from "./components/Sidebar";
 
 const container = styled.div`
   background: ${({theme}) => theme.bg};
