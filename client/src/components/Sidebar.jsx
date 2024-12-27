@@ -2,8 +2,8 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    return <MeSidebar</div>
+    return <MenuSidebar</div>
   )
 }
 
-export default Side
+export default Sidebar
