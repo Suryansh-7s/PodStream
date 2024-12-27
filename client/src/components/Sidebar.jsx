@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     return <MenuContianer>
         <Logo></Logo>
-        
+        <Close
         </MenuContianer>
   )
 }
