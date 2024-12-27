@@ -1,3 +1,3 @@
 import { useState } from "react";
 import styled, {ThemeProvider} from "styled-components";
-import { }
+import { lightTheme, darkTheme, GlobalStyles } from "./themes";
