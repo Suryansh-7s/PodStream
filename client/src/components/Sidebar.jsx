@@ -23,7 +23,7 @@ const MenuContianer = styled.div`
 const Flex = styled.div`
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
     border-bottom: 1px solid ${({theme}) => theme.text_secondary};
 `;
