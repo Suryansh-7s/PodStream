@@ -9,4 +9,5 @@ const container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  transition: background 0.5s;
+`;
