@@ -11,7 +11,7 @@ const MenuContianer = styled.div`
     display: flex;
     background: ${({theme}) => theme.bg};
     color: ${({theme}) => theme.text_primary};
-    /*@media (max-width: 1100px){
+    @media (max-width: 1100px){
         position: fixed;
         z-index: 1000;
         width: 100%;
@@ -38,7 +38,7 @@ const Logo = styled.div`
 const Close = styled.div`
 display: flex;
 @media (max-width: 1100px){
-display: block;
+display: ;
 `;
 const Elements = styled.div``;
 const NavText = styled.div``;
