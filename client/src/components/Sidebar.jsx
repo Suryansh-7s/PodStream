@@ -10,6 +10,7 @@ const MenuContainer = styled.div`
     display: flex;
     background: ${({ theme }) => theme.bg};
     color: ${({ theme }) => theme.text_primary};
+    @med
 `;
 
 const Flex = styled.div`
