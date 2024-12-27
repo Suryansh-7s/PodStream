@@ -1,4 +1,4 @@
-function App(){
+import function App(){
   return (
     const [darkMode, setDarkMode] = useState(true);
     <div>
