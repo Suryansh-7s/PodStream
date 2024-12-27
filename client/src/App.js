@@ -4,7 +4,7 @@ import { lightTheme, darkTheme} from "./utils/Themes";
 import Sidebar from "./components/Sidebar";
 
 const container = styled.div`
-  display:
+  display: flex;
   background: ${({theme}) => theme.bg};
   width: 100%;
   height: 100vh;
