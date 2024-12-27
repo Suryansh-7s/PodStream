@@ -7,7 +7,7 @@ const Logo = styled.div`
 
 const Sidebar = () => {
   return (
-    return <MenuContianer>
+  <MenuContianer>
         <Logo></Logo>
         <Close>
             <CloseRounded />
