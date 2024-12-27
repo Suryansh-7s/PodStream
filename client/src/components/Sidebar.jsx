@@ -1,6 +1,7 @@
 import React from 'react'
+
 const MenuContianer = styled.div`
-\
+
 const Sidebar = () => {
   return (
     return <MenuContianer>
