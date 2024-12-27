@@ -43,7 +43,7 @@ const Sidebar = () => {
   return (
   <MenuContianer>
     <Logo>Podstream</Logo>
-    <Close
+    <Close>
         <CloseRounded />
     </Close>
     <Elements>
