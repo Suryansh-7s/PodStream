@@ -1,5 +1,5 @@
 import useState from "react";
-import styled, { ThemeConsumer } from "styled-components";
+import styled, { ThemeConsumer, ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./utils/theme";
 
 const container = styled.div`
@@ -13,7 +13,7 @@ function App(){
   
   return (    
   <div>
-    <ThemePro<h1>PodStream</h1>
+    <ThemeProvidero<h1>PodStream</h1>
     </div>
   );
 }
