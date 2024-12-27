@@ -17,7 +17,7 @@ const MenuContianer = styled.div`
         width: 100%;
         max-width: 250px;
         left: ${({setMenuOpen}) => setMenuOpen ? "0" : "-100%"};
-        transition: 0.3s ease;
+        transition: 0.3s ease-in-out;
 `;
 
 const Logo = styled.div``;
