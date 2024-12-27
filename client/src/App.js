@@ -74,8 +74,6 @@ function App() {
   return (
 
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-
-     
     </ThemeProvider>
 
   );
