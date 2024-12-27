@@ -25,7 +25,6 @@ const Flex = styled.div`
     align-items: center;
     justify-content: center;
     padding: 20px;
-    border-bottom: 1px solid ${({theme}) => theme.text_secondary};
 `;
 const Logo = styled.div`
     color: ${({theme}) => theme.primary};
