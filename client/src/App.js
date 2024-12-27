@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import styled from 'styled-components';
 
-
 function App() {
 
   const [darkMode, setDarkMode] = useState(true);
