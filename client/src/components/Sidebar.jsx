@@ -11,13 +11,13 @@ const MenuContianer = styled.div`
     display: flex;
     background: ${({theme}) => theme.bg};
     color: ${({theme}) => theme.text_primary};
-    // @media (max-width: 1100px){
-    //     position: fixed;
-    //     z-index: 1000;
-    //     width: 100%;
-    //     max-width: 250px;
-    //     left: ${({setMenuOpen}) => setMenuOpen ? "0" : "-100%"};
-    //     transition: 0.3s ease-in-out;
+    @media (max-width: 1100px){
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        max-width: 250px;
+        left: ${({setMenuOpen}) => setMenuOpen ? "0" : "-100%"};
+        transition: 0.3s ease-in-out;
 `;
 
 const Flex = styled.div`
