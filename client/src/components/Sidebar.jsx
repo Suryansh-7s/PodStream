@@ -21,7 +21,8 @@ const MenuContianer = styled.div`
 `;
 
 const Logo = styled.div`
-    color: ${({theme}) => theme.text_primary};
+    color: ${({theme}) => theme.primary};
+    
 const Close = styled.div``;
 const Elements = styled.div``;
 const NavText = styled.div``;
