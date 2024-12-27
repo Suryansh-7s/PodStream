@@ -7,14 +7,22 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "autopush": "git add . && git commit -m \"Auto-commit: Changes saved on $(date)\" && git push origin main"
   },
-  "keywords": ["podcast", "streaming", "audio"],
+  "keywords": [
+    "podcast",
+    "streaming",
+    "audio"
+  ],
   "author": "Suryansh-7s",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Suryansh-7s/PodStream.git"
+    "url": "git+https://github.com/Suryansh-7s/PodStream.git"
   },
   "engines": {
     "node": ">=14.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Suryansh-7s/PodStream/issues"
+  },
+  "homepage": "https://github.com/Suryansh-7s/PodStream#readme"
 }
