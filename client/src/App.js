@@ -15,6 +15,6 @@ function App(){
     <ThemeProvider theme={lightTheme}>
     <container>PodStream</container>
     </ThemeProvider>
-  )
-
+  );
+}
 export default App;
