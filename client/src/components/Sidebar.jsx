@@ -30,7 +30,7 @@ const Logo = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;durdd
+    gap: 10px;
     font-weight: bold;
     font-size: 20px;
     margin: 20px 0px;
