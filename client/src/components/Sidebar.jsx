@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
+';'
 const MenuContianer = styled.div`
 const Logo = styled.div`
 const Close = styled.div`
