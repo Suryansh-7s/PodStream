@@ -1,6 +1,6 @@
 import useState from "react";
 import styled from "styled-components";
-import { lightTheme, darkTheme } from "./util/theme";
+import { lightTheme, darkTheme } from "./utils/theme";
 const container = styled.div`
 
 function App(){
