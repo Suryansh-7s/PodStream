@@ -10,7 +10,9 @@ const MenuContainer = styled.div`
     display: flex;
     background: ${({ theme }) => theme.bg};
     color: ${({ theme }) => theme.text_primary};
-    @med
+    @media (max-width: 1100px) {
+    position: fixed;
+    
 `;
 
 const Flex = styled.div`
