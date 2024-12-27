@@ -21,7 +21,7 @@ const MenuContianer = styled.div`
 `;
 
 const Logo = styled.div`
-`;
+    color
 const Close = styled.div``;
 const Elements = styled.div``;
 const NavText = styled.div``;
