@@ -37,7 +37,7 @@ const Logo = styled.div`
 `;
 const Close = styled.div`
 display: flex;
-
+@media (min-width: 1100px){
 `;
 const Elements = styled.div``;
 const NavText = styled.div``;
@@ -57,5 +57,3 @@ const Sidebar = () => {
     </MenuContianer>
   )
 }
-
-export default Sidebar
