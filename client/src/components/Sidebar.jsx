@@ -13,7 +13,7 @@ const NavText = styled.div``;
 const Sidebar = () => {
   return (
   <MenuContianer>
-    <Logo>PodStream</Logo>
+    <Logo>Podstream</Logo>
     <Close>
         <CloseRounded />
     </Close>
