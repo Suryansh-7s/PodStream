@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { HomeRounded from '@mui/icons-material/HomeRounded'
+import { HomeRounded,C from '@mui/icons-material/HomeRounded'
 
 const MenuContianer = styled.div``;
 const Logo = styled.div``;
