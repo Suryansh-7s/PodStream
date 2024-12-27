@@ -9,7 +9,7 @@ const MenuContianer = styled.div`
     flex-direction: column;
     height: 100vh;
     display: flex;
-    background: ${({theme}) => <theme className="bg"></theme>
+    background: ${({theme}) => theme.bg
 `;
 
 const Logo = styled.div``;
