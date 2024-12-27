@@ -20,6 +20,7 @@ const MenuContianer = styled.div`
         transition: 0.3s ease-in-out;
 `;
 
+const 
 const Logo = styled.div`
     color: ${({theme}) => theme.primary};
     display: flex;
