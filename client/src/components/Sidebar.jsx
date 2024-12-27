@@ -26,7 +26,8 @@ const Logo = styled.div`
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-weight: 700;
+    font-weight: bold;
+    font
 `;
 const Close = styled.div``;
 const Elements = styled.div``;
