@@ -11,7 +11,7 @@ const MenuContianer = styled.div`
     display: flex;
     background: ${({theme}) => theme.bg};
     color: ${({theme}) => theme.text_primary};
-    @med
+    @media (max-width: 768px) {
 `;
 
 const Logo = styled.div``;
