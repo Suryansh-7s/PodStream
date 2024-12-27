@@ -5,7 +5,8 @@ import { lightTheme, darkTheme } from "./utils/theme";
 const container = styled.div`
 background-color: ${({ theme }) => theme.bg};
 widht: 100%;
-
+height: 100vh;
+`;
 function App(){
   return (
     const [darkMode, setDarkMode] = useState(true);
