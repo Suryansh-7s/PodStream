@@ -12,7 +12,8 @@ const MenuContainer = styled.div`
     color: ${({ theme }) => theme.text_primary};
     @media (max-width: 1100px) {
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
+    
 `;
 
 const Flex = styled.div`
