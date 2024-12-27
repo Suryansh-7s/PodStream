@@ -1,5 +1,5 @@
 import useState from "react";
-impo
+import
 function App(){
   return (
     const [darkMode, setDarkMode] = useState(true);
