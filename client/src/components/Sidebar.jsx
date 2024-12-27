@@ -22,6 +22,7 @@ const MenuContianer = styled.div`
 
 const Logo = styled.div`
     color: ${({theme}) => theme.primary};
+    display: flex;
     
 `;
 const Close = styled.div``;
