@@ -20,7 +20,8 @@ const MenuContianer = styled.div`
         transition: 0.3s ease-in-out;
 `;
 
-const Logo = styled.div``;
+const Logo = styled.div`
+`;
 const Close = styled.div``;
 const Elements = styled.div``;
 const NavText = styled.div``;
