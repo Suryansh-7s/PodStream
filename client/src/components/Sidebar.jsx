@@ -7,7 +7,9 @@ const Logo = styled.div`
 const Close = styled.div`
 const CloseRounded = styled.div`
 const Elements = styled.div`
-cons
+const HomeRounded = styled.div`
+const NavText = styled.div`
+const 
 
 const Sidebar = () => {
   return (
