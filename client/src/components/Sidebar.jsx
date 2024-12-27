@@ -12,7 +12,8 @@ const MenuContianer = styled.div`
     background: ${({theme}) => theme.bg};
     color: ${({theme}) => theme.text_primary};
     @media (max-width: 1100px){
-    }
+        position: fixed;
+        
 `;
 
 const Logo = styled.div``;
