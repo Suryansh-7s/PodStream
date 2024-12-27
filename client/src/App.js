@@ -1,1 +1,1 @@
-function App()
+function App(){}
