@@ -17,6 +17,7 @@ const MenuContianer = styled.div`
         width: 100%;
         max-width: 250px;
         left: ${({setMenuOpen}) => setMenuOpen ? "0" : "-100%"};
+        tra
 `;
 
 const Logo = styled.div``;
