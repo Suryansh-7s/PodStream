@@ -11,7 +11,7 @@ const Sidebar = () => {
     <Logo></Logo>
     <Close>
         <CloseRounded />
-        </Close>
+    </Close>
         </MenuContianer>
   )
 }
