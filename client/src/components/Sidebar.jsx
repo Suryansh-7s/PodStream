@@ -35,7 +35,8 @@ const Logo = styled.div`
     font-size: 20px;
     margin: 20px 0px;
 `;
-const Close = styled.div``;
+const Close = styled.div`
+displa`;
 const Elements = styled.div``;
 const NavText = styled.div``;
 
