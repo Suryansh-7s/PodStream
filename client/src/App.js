@@ -14,7 +14,7 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <container>
-        <Sidebar
+        <Sidebar />
         PodStream
       </container>
     </ThemeProvider>
