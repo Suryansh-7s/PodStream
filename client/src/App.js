@@ -11,8 +11,7 @@ height: 100vh;
 function App(){
   const [darkMode, setDarkMode] = useState(true);
   
-  return (    
-  <div>
+  return (
     <ThemeProvider theme={lightTheme}>
     <container>PodStream</container>
     </ThemeProvider>
