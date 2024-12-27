@@ -11,7 +11,7 @@ const MenuContianer = styled.div`
     display: flex;
     background: ${({theme}) => theme.bg};
     color: ${({theme}) => theme.text_primary};
-    @media (max-width: 768px) {
+    @media (max-width: 1100px){}
 `;
 
 const Logo = styled.div``;
@@ -35,4 +35,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Side
